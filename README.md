@@ -1,3 +1,26 @@
+# AWS Amplify CLI
+npm install -g @aws-amplify/cli
+amplify configure
+
+# initialize AWS project
+amplify init
+# Add hosting
+amplify add hosting
+# Publish to S3 bucket
+amplify publish
+
+# Adding authentication to the app
+amplify add auth
+
+# Pushing changes to server
+amplify push
+
+# Appsync
+amplify add api
+amplify push
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
